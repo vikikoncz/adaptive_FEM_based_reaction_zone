@@ -1,0 +1,17 @@
+HELP.TXT
+author:VIKI
+*************************************************************************
+TIME-DEPENDENT modelling of acid-base diodes
+*************************************************************************
+1. Set the parameters
+	-for concentrations and voltage: alert the .sh file
+	-for other parameters e.g. c_fa, .... check parameters.java
+2. Please note: solvers setting are optimized for U=10V, c0_fa=4e-3, L=1mm
+3. Reset the MESH: 
+	-for the stationary solver: refined region, mesh density (prior check the stationary result!)
+	-for the time_dependent solver: refined region, mesh density, ppb1_x, ppb2_x!!!
+	-in mesh_adap.java as well
+4. If you wanna modify tlist settings, just do it!
+5. Logging and saving settings	
+
+
